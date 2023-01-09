@@ -1,0 +1,42 @@
+/* debug */
+#back-red{
+	background-color: red;
+	border: 1px dotted white;
+}
+#back-green{
+	background-color: green;
+	border: 1px dotted lightsalmon;
+}
+#back-blue{
+	background-color: blue;
+	border: 1px dotted lightsalmon;
+}
+/* main  */
+main{
+	height: calc(100vh - 100px);
+}
+
+/* footer  */
+.play-bar{
+	height: 100px;
+	
+	/* debug */
+	background-color: red;
+	border: 1px solid white;
+
+}
+
+.music,
+.time-bar,
+.stream-bar{
+	/* debug */
+	width: 500px;
+	height: 100px;
+	background-color: red;
+	border: 1px solid white;
+}
+
+.time-bar{
+	flex-grow: 1;
+	text-align: center;
+}
