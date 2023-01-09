@@ -36,6 +36,21 @@
 .jc-space-evenly {
 	justify-content: space-evenly;
 }
+/* flex direction */
+
+.flex-dir-column{
+	flex-direction: column;
+}
+.flex-dir-column-re{
+	flex-direction: column-reverse;
+}
+.flex-dir-row-re{
+	flex-direction: row;
+}
+.flex-dir-row-re{
+	flex-direction: row-reverse;
+}
+
 
 /* DISPLAYS */
 
