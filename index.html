@@ -10,6 +10,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- font-awsome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+	integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" 
+	/>
 
 	<!-- fogli di stile -->
 
@@ -22,14 +27,44 @@
 	<main class="d-flex">
 	
 		<nav class="d-flex flex-dir-column">
-			<div class="logo">
-
+			<div>
+				<img src="./img/logo.svg" class="logo" alt="spotify-logo">
 			</div>
 			<div class="search">
-
+				<ul>
+					<li><span><i class="fa-solid fa-house"></i></span> Home</li>
+					<li><span><i class="fa-solid fa-magnifying-glass"></i></span> Cerca</li>
+					<li><span><i class="fa-solid fa-bars"></i></span> La tua libbreria</li>
+				</ul>
 			</div>
 			<div class="playlist">
+				<h3>PLAYLIST</h3>
+				<div class="crea-lista">
+					<span class="simbolo"></span>
+					<span>Crea Playlist</span>
+				</div>
+				<div class="list-album">
+					<ul>
+						<li><a href="#">Nome Playlist</a></li>
+						<li><a href="#">Nome Playlist</a></li>
+						<li><a href="#">Nome Playlist</a></li>
+						<li><a href="#">Nome Playlist</a></li>
+						<li><a href="#">Nome Playlist</a></li>
+						<li><a href="#">Nome Playlist</a></li>
+						<li><a href="#">Nome Playlist</a></li>
+					</ul>
+				</div>
+			</div>
 
+			<div class="account">
+				<div class="instal-app">
+					<img src="./img/download.svg" class="img-download" alt="download">
+					<span>Installa app</span>
+				</div>
+				<div class="logged-account">
+					<img src="./img/profile.svg" class="img-profile" alt="img-profile">
+					<span>John Doe</span>
+				</div>
 			</div>
 		</nav>
 		<div class="main-content">

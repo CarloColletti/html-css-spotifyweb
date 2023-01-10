@@ -1,29 +1,13 @@
 /* debug */
-#back-red{
-	background-color: red;
-	border: 1px dotted white;
-}
-#back-green{
-	background-color: green;
-	border: 1px dotted white;
-}
-#back-blue{
-	background-color: blue;
-	border: 1px dotted white;
-}
-
 .cubo{
 	height: 500px;
 	width: 500px;
 	background-color: aqua;
-}
-#over{
-	overflow: auto;
-	width: calc(100vw - 300px);
+	margin-bottom: 10px;
 }
 
 *{
-	color: white;
+	color: grey;
 }
 /* main  */
 main{
@@ -33,19 +17,74 @@ main{
 
 /* nav */
 nav{
-	height: calc(100vh);
+	height: calc(100vh - 100px);
 	width: 300px;
-	/* debug */
-	background-color: green;
-	border: 1px dotted white;
+	background-color: #000000;
+	overflow: auto;
 }
 
-/* debug */
-.logo,.search,.playlist{
-	width: 100%;
-	height: 100px;
-	background-color: green;
-	border: 1px dotted white;
+/* logo  */
+
+.logo{
+	width: 70%;
+	padding: 20px;
+}
+/* search */
+
+.search,
+.list-album{
+	font-size: 1.1rem;
+}
+
+.search ul li,
+.playlist h3,
+.playlist .crea-lista>span,
+.list-album ul li{
+	padding: 20px 0 3px 20px;
+}
+
+/* playlist */
+
+
+
+/* account  */
+
+.account{
+	margin-top: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.account .instal-app,
+.account .logged-account{
+	padding: 10px 0 10px 0;
+	display: flex;
+	align-items: center;
+}
+.account .instal-app>*,
+.account .logged-account>* {
+	margin-right: 10px;
+}
+
+/* instal app */
+.instal-app{
+	border-bottom: 1px solid grey;
+}
+.img-download{
+	color: grey;
+	width: 20px;
+}
+
+/* log-account */
+.img-profile{
+	background-color: grey;
+	width: 15%;
+	border-radius: 50%;
+}
+
+.logged-account span{
+	font-size: 1.2rem;
+	font-weight: bolder;
+	color: white;
 }
 
 /* header  */
@@ -58,6 +97,10 @@ header{
 }
 
 /* main-content */
+.main-content{
+	background-color: #141922;
+}
+
 .content{
 	height: calc(100vh - 100px);
 	padding-top: 100px;
