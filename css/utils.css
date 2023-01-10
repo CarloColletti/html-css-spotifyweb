@@ -12,7 +12,7 @@
 	margin-bottom: 50px;
 }
 .card-col{
-	width: 300px;
+	width: 260px;
 	text-align: center;
 }
 .card-album{
@@ -23,9 +23,6 @@
 .margin-container{
 	margin-left: 25px;
 }
-
-/* icons */
-
 
 /* img  */
 
@@ -43,6 +40,16 @@
 	border-radius: 50px;
 	border: 2px solid white;
 	padding: 20px 60px;
+
+}
+
+.btn-plus{
+	margin-left: 20px;
+	
+	color: black;
+	background-color: grey;
+	font-size: 40px;
+	
 
 }
 

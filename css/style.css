@@ -30,7 +30,6 @@ nav{
 
 .search ul li,
 .playlist h3,
-.playlist .crea-lista>span,
 .list-album ul li{
 	padding: 20px 0 3px 20px;
 }
@@ -50,7 +49,6 @@ nav{
 }
 
 /* playlist */
-
 
 
 /* account  */
@@ -132,22 +130,22 @@ header{
 /* footer  */
 .play-bar{
 	height: 100px;
-	
-	/* debug */
-	background-color: red;
+	background-color: #282828;
 
 }
 
 .music,
 .time-bar,
 .stream-bar{
-	/* debug */
-	width: 500px;
-	height: 100px;
-	background-color: red;
+	display: flex;
+	justify-content: space-between;
 }
 
 .time-bar{
 	flex-grow: 1;
 	text-align: center;
+}
+/* music  */
+.music img{
+	width: 18%;
 }
