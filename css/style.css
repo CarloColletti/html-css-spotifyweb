@@ -1,11 +1,3 @@
-/* debug */
-.cubo{
-	height: 500px;
-	width: 500px;
-	background-color: aqua;
-	margin-bottom: 10px;
-}
-
 *{
 	color: grey;
 }
@@ -41,6 +33,20 @@ nav{
 .playlist .crea-lista>span,
 .list-album ul li{
 	padding: 20px 0 3px 20px;
+}
+
+.search img{
+	width: 15%;
+
+}
+.search ul li{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.search ul li img {
+	padding-right: 10px;
 }
 
 /* playlist */
@@ -89,23 +95,38 @@ nav{
 
 /* header  */
 header{
-	height: 100px;
+	height: 150px;
 	background-color: black;
 	opacity: 0.5;
 	position: fixed;
-	width: calc(100% - 300px);
+	width: calc(100vw - 316px);
+	text-align: end;
+	padding-top: 60px;
 }
 
 /* main-content */
 .main-content{
 	background-color: #141922;
 }
-
+/* content */
 .content{
-	height: calc(100vh - 100px);
-	padding-top: 100px;
+	height: calc(100vh - 150px);
+	padding-top: 150px;
 	overflow: auto;
 	width: calc(100vw - 300px);
+}
+
+/* explore-bar */
+.explore-bar{
+	text-align: center;
+	padding: 25px 0 25px 0;
+	margin-bottom: 20px;
+
+}
+
+.explore-bar ul li{
+	display: inline-block;
+	padding-right: 25px;
 }
 
 /* footer  */
@@ -114,7 +135,6 @@ header{
 	
 	/* debug */
 	background-color: red;
-	border: 1px solid white;
 
 }
 
@@ -125,7 +145,6 @@ header{
 	width: 500px;
 	height: 100px;
 	background-color: red;
-	border: 1px solid white;
 }
 
 .time-bar{

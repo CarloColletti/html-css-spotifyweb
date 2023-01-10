@@ -5,7 +5,46 @@
 	clear: both;
 	display: table;
 }
+/* cards */
+.row-card{
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.card-col{
+	width: 300px;
+	text-align: center;
+}
+.card-album{
+	flex-wrap: wrap;
+	padding: 25px 25px 15px 0;
+}
 
+.margin-container{
+	margin-left: 25px;
+}
+
+/* icons */
+
+
+/* img  */
+
+.radio-img{
+	border-radius: 50%;
+}
+
+
+
+/* batton */
+
+.btn{
+	color: white;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 2px solid white;
+	padding: 20px 60px;
+
+}
 
 /* framework */
 
