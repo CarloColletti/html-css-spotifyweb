@@ -33,6 +33,10 @@ nav{
 	width: 70%;
 	padding: 20px;
 }
+
+.logo-hidden{
+	display: none;
+}
 /* search */
 
 .search,
@@ -295,4 +299,78 @@ i:hover {
 
 .explore-bar ul li:hover{
 	color: white;
+}
+
+/* media query */
+@media screen and (max-width: 1198px) {
+	header{
+		display: none;
+	}
+
+	.content{
+		padding-top: 0;
+
+	}
+
+	.progres-bar{
+		width: 300px;
+	}
+	
+	.stream{
+		flex-direction: column;
+	}
+
+	.volume-bar{
+		width: 50px;
+	}
+
+}
+@media screen and (max-width: 480px) {
+	
+
+	.progres-bar {
+		width: 100px;
+	}
+
+	.stream {
+		flex-direction: column;
+	}
+
+	.volume-bar {
+		display: none;
+	}
+
+	.stream-bar {
+		display: none;
+	}
+	
+	
+	.search ul li a {
+		display: none;
+	}
+
+	.playlist{
+		display: none;
+	}
+
+	.account{
+		display: none;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.logo-hidden{
+		display: block;
+	}
+
+	nav{
+		width: 40px;
+	}
+
+	.content{
+		width: calc(100vh - 40px);
+	}
+
 }
