@@ -131,7 +131,6 @@ header{
 .play-bar{
 	height: 100px;
 	background-color: #282828;
-
 }
 
 .music,
@@ -169,3 +168,49 @@ header{
 	width: 60px;
 }
 
+/* time-bar  */
+.time-bar{
+	flex-direction: column;
+}
+
+.time-progres,
+.time-batton{
+	height: calc(100% / 2);
+	align-items: center;
+}
+
+.time-batton>i {
+	padding: 0 10px;
+	color: white;
+}
+
+.time-batton>i{
+	padding: 10px;
+	font-size: 1.6rem;
+	
+}
+.time-batton>i:nth-child(3){
+	font-size: 2.5rem;
+}
+
+.time-progres>span{
+	color: white;
+	padding: 0 30px;
+}
+
+.progres-bar{
+	width: 500px;
+	height: 4px;
+	border-radius: 1px;
+	background-color: grey;
+}
+
+.progres{
+	display: block;
+	width: 30%;
+	height: 100%;
+	background-color: white;
+}
+
+
+/* stream-bar  */
