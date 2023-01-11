@@ -21,9 +21,12 @@ nav{
 	height: calc(100vh - 100px);
 	width: 300px;
 	background-color: #000000;
-	/* overflow: auto; */
 }
 
+
+.overflow{
+	overflow: auto;
+}
 /* logo  */
 
 .logo{
@@ -60,9 +63,6 @@ nav{
 	padding-left: 20px;
 }
 
-.search ul li:hover{
-	border-left: 2px solid greenyellow;
-}
 
 /* playlist */
 .playlist h3{
@@ -146,12 +146,12 @@ header{
 
 .explore-bar ul li{
 	display: inline-block;
-	padding-right: 25px;
+	margin-right: 25px;
 }
 
 .explore-bar ul li {
 	border-bottom: 2px solid green;
-	
+
 }
 
 
@@ -277,7 +277,12 @@ header{
 	height: 100%;
 	background-color: white;
 }
-
+/* hover  */
 i:hover {
 	color: greenyellow;
 }
+
+.card-album:hover{
+	filter: brightness(40%);
+}
+
