@@ -137,15 +137,35 @@ header{
 .music,
 .time-bar,
 .stream-bar{
+	height: 100px;
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+}
+.music,
+.stream-bar {
+	width: 300px;
 }
 
 .time-bar{
 	flex-grow: 1;
-	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 /* music  */
-.music img{
-	width: 18%;
+.music .music-name,
+.music .music-album{
+	margin-left: 15px;
 }
+
+.favorite{
+
+	margin-left: auto;
+}
+
+.favorite>*{
+	padding: 0 10px;
+}
+.music-album{
+	width: 60px;
+}
+
