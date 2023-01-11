@@ -1,6 +1,15 @@
 *{
 	color: grey;
 }
+
+h2,h3,h4,h5{
+	color: white;
+}
+
+i{
+	cursor: pointer;
+}
+
 /* main  */
 main{
 	height: calc(100vh - 100px);
@@ -12,7 +21,7 @@ nav{
 	height: calc(100vh - 100px);
 	width: 300px;
 	background-color: #000000;
-	overflow: auto;
+	/* overflow: auto; */
 }
 
 /* logo  */
@@ -93,13 +102,12 @@ nav{
 
 /* header  */
 header{
-	height: 150px;
+	height: 100px;
 	background-color: black;
 	opacity: 0.5;
 	position: fixed;
-	width: calc(100vw - 316px);
+	width: calc(100vw - 300px);
 	text-align: end;
-	padding-top: 60px;
 }
 
 /* main-content */
@@ -108,8 +116,8 @@ header{
 }
 /* content */
 .content{
-	height: calc(100vh - 150px);
-	padding-top: 150px;
+	height: calc(100vh - 100px);
+	padding-top: 100px;
 	overflow: auto;
 	width: calc(100vw - 300px);
 }
@@ -125,6 +133,22 @@ header{
 .explore-bar ul li{
 	display: inline-block;
 	padding-right: 25px;
+}
+
+/* cards */
+.card-col h4,
+.card-col:last-child{
+	padding-bottom: 10px;
+}
+
+.content h4{
+	font-size: 1.3rem;
+}
+
+.content h2{
+	font-size: 1.8rem;
+	font-weight: bold;
+	padding-bottom: 15px;
 }
 
 /* footer  */
@@ -151,6 +175,8 @@ header{
 	justify-content: center;
 }
 /* music  */
+
+
 .music .music-name,
 .music .music-album{
 	margin-left: 15px;
@@ -212,5 +238,26 @@ header{
 	background-color: white;
 }
 
-
 /* stream-bar  */
+.stream>i{
+	color: white;
+	padding: 0 10px;
+}
+
+.volume-bar {
+	width: 150px;
+	height: 4px;
+	border-radius: 1px;
+	background-color: grey;
+}
+
+.volume {
+	display: block;
+	width: 30%;
+	height: 100%;
+	background-color: white;
+}
+
+i:hover {
+	color: greenyellow;
+}
